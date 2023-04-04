@@ -32,7 +32,7 @@ class Bencode {
             }
             val = val * 10 + (c - 48);
         }
-        ++this.pos;
+        this.pos++;
         return val;
     }
 
@@ -59,12 +59,12 @@ class Bencode {
             list.push(this.decode());
         }
 
-        ++this.pos;
+        this.pos++;
         return list;
     }
 
     map(){
-        ++this.pos;
+        this.pos++;
         let dict = {};
         while(this.buf[this.pos] !== 101){
             let key = this.string().toString();
@@ -72,7 +72,7 @@ class Bencode {
             dict[key] = value;
         }
 
-        ++this.pos;
+        this.pos++;
         return dict;
     }
 }
