@@ -1,4 +1,4 @@
-Bencode
+BencodeJS
 ========
 
 This is an implementation of Bencode for JavaScript. Bencode is used for DHTs, Torrents, and Google DataServers. Its a lightweight fast data serialization.
