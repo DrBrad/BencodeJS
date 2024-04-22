@@ -4,7 +4,7 @@ BencodeJS
 This is an implementation of Bencode for JavaScript. Bencode is used for DHTs, Torrents, and Google DataServers. Its a lightweight fast data serialization.
 [Wikipedia](https://en.wikipedia.org/wiki/Bencode)
 
-I have also made an implementation of Bencode with [Java](https://github.com/DrBrad/Bencode) and [PHP](https://github.com/DrBrad/BencodePHP).
+I have also made an implementation of Bencode with [Java](https://github.com/DrBrad/Bencode), [Rust](https://github.com/DrBrad/BencodeRust) and [PHP](https://github.com/DrBrad/BencodePHP).
 
 Usage
 -----
